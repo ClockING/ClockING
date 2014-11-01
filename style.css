@@ -1,0 +1,69 @@
+body, html{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+
+li{
+	width: 100%;
+	display: inline-block;
+	height: 1em;
+	color: white;
+	padding: 1em 0;
+	background: black;
+	text-align: center;
+}
+
+li:hover{
+	background: #444;
+}
+
+nav{
+	display: block;
+	position: absolute;
+	top: 15%;
+	width: 30%;
+	left: 10%;
+	height: auto;
+	background: red;
+}
+ul{  
+	margin:0;  
+	padding:0;  
+	list-style-type:none;  
+}
+
+section{
+	display: block;
+	width: 100%;
+	height: calc( 100% - 3em);
+}
+
+.fixed{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.fixed li{
+width: 33%;
+
+}
+
+
+#adults{
+	background: violet;
+}
+#kids{
+	background: yellow;
+}
+#main{
+	background: blue;
+}
+
